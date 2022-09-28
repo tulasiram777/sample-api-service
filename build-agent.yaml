@@ -24,7 +24,7 @@ spec:
     - name: trufflehog
       image: rmkanda/trufflehog
       command:
-        - cat
+        - /bin/cat
       tty: true
     - name: docker-tools
       image: rmkanda/docker-tools:latest
